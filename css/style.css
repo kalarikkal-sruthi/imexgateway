@@ -1061,7 +1061,7 @@ text-decoration: none;
     width: 30px;
     height: 30px;
     border-radius: 4px !important;
-    background-color: #c9b16a7f !important;
+    background-color: #c9b16a !important;
     
 }
 .popular-brand-carousel .owl-next{
@@ -1147,7 +1147,7 @@ position: absolute;
 }
 
 .our-story{
-  background-color:beige;
+  background-color:#c9b16a;
       /* margin-top: 30px; */
     text-align: center;
     padding: 60px 0px;
@@ -1156,12 +1156,13 @@ position: absolute;
 .our-story-info h1{
 
     font-size: 60px;
-    color: #000;
+    color: #fff;
     font-weight: bold;
     margin-bottom: 15px;
 }
 .our-story-info p{
 font-size: 14px;
+color: #fff;
    
 }
 
