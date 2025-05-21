@@ -29,6 +29,7 @@
       rel="stylesheet">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -116,7 +117,7 @@
          <div class="row">
             <div class="col-md-12">
                <div class="about-head-inner">
-                  <h1>Contact Us</h1>
+                  <h1 data-aos="fade-down"  data-aos-duration="1500">Contact Us</h1>
                </div>
             </div>
          </div>
@@ -145,7 +146,7 @@
 
                <div class="conatct-information">
 
-                  <h5>Contact Information</h5>
+                  <h5 data-aos="fade-right"  data-aos-duration="1500">Contact Information</h5>
                   <div class="footer-address-main">
                      <div class="footer-address">
                         <div class="address">
@@ -182,7 +183,7 @@
             </div>
             <div class="col-md-8">
                <div class="conatct-information">
-                  <h5>Leave Your Message</h5>
+                  <h5 data-aos="fade-right"  data-aos-duration="1500"> Leave Your Message</h5>
 
                   <form class="conversation-form-contact mt-4">
                      <div class="row">
@@ -338,6 +339,10 @@
    <script src="js/jquery.min.js"></script>
    <script src="js/owl.carousel.min.js"></script>
    <script src="js/scriptfont.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+   <script>AOS.init();
+</script>
    <script>
       $(document).ready(function () {
          var header = $('#stickyHeader');
