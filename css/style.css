@@ -1357,6 +1357,12 @@ font-size: 14px;
     font-size: 40px;
     margin-bottom: 20px;
 }
+
+.buildng-construction-material h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 .materials-main{
   display: flex;
   /* gap: 10px; */
@@ -1425,14 +1431,19 @@ font-size: 14px;
 
 .material-flex-main{
   display: flex;
-  gap: 30px;
+  gap: 4%;
   justify-content: center;
  
 }
 .material-content{
-text-align: center;
-    background: black;
+ background: black;
     padding: 12px;
+    height: 80px;
+    display: flex
+;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .material-content ul{
@@ -1463,4 +1474,125 @@ text-align: center;
 .building-popular-brand h1{
  font-size: 16px;
  margin-bottom: 0px;
+}
+
+
+/* mep material */
+
+.mep-list-box{
+ display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 60px;
+
+
+}
+.mep-list-box:nth-child(4){
+ 
+    margin-bottom: 0px;
+
+
+}
+.mep-list-box:nth-child(5){
+ 
+    margin-bottom: 0px;
+
+
+}
+.mep-list-box-head{
+  background-color: #c9b16a;
+}
+
+.mep-list-box-head h1{
+     color: #fff;
+    padding: 20px 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.mep-list-box-contents{
+
+  background-color: white;
+}
+.mep-list-box-contents{
+  background-color: #fff;
+}
+.mep-list-box-contents ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.mep-list-box-contents ul  li{    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    height: 60px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+.mep-list-box-contents ul  li:last-child{
+   border-bottom:none;
+}
+.mep-list-box-contents ul  li:first-child{
+   border-top:none;
+}
+.mep-list-box-contents{
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.mep-list-box-one{
+  width: 32%;
+
+}
+
+.mep-list-box-one:hover .mep-list-box-head{
+  background-color: #fff;
+  /* border: 1px 1px 0px 1px; */
+border: 1px solid #000;
+
+}
+.mep-list-box-one:hover .mep-list-box-head h1{
+color: #000;
+
+}
+.mep-list-box-one:hover .mep-list-box-contents{
+  background-color: #c9b16a;
+  
+}
+
+.mep-list-box-one:hover .mep-list-box-contents ul li{
+ color: #fff;
+  
+}
+.mep-list-box-one:hover .mep-list-box-head{
+   border-bottom:none;
+  
+}
+
+.mep-popular-products ul{
+  padding-left: 0px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mep-popular-products ul li{
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 10px 15px;
+  margin-bottom: 0px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.mep-popular-products ul li:hover{
+  background-color: #c9b16a;
+  color: #fff;
+}
+.mep-popular-products ul li:nth-child(even){
+  /* background-color: #c9b16a; */
+  /* color: white; */
 }
