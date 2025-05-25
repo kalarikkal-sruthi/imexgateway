@@ -185,6 +185,45 @@
                <div class="conatct-information">
                   <h5 data-aos="fade-right"  data-aos-duration="1500"> Leave Your Message</h5>
 
+
+
+                    <form method="post" class="conversation-form-contact mt-4" novalidate>
+                        <div class="row">
+                           <div class="col-md-6">
+                              <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                              <div class="error-message" id="firstNameError"></div>
+                           </div>
+                           <div class="col-md-6">
+                              <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                              <div class="error-message" id="lastNameError"></div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-6">
+                              <input type="text" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                              <div class="error-message" id="mobileError"></div>
+                           </div>
+                           <div class="col-md-6">
+                              <input type="email" id="email" name="email" placeholder="Your Email" required>
+                              <div class="error-message" id="emailError"></div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-12">
+                              <input type="text" id="company" name="company" placeholder="Company Name" required>
+                              <div class="error-message" id="companyError"></div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-12">
+                              <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                              <div class="error-message" id="messageError"></div>
+                           </div>
+                        </div>
+                        <button type="submit" class="button-50" role="button">Get A Quote</button>
+                     </form>
+
+<!-- 
                   <form class="conversation-form-contact mt-4">
                      <div class="row">
                         <div class="col-md-6">
@@ -215,8 +254,8 @@
                         </div>
                      </div>
                      <button class="button-50" role="button">Get A Quote</button>
-                     <!-- <button type="submit">Send Message</button> -->
-                  </form>
+                     
+                  </form> -->
                </div>
 
             </div>
@@ -373,6 +412,66 @@
             top: 0,
             behavior: "smooth"
          });
+      });
+   </script>
+
+      <script>
+      document.addEventListener("DOMContentLoaded", () => {
+         const form = document.querySelector(".conversation-form-contact");
+         const fields = form.querySelectorAll("input, textarea");
+
+         fields.forEach(field => {
+            field.addEventListener("input", () => {
+               validateField(field);
+            });
+         });
+
+         form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            let isFormValid = true;
+
+            fields.forEach(field => {
+               if (!validateField(field)) {
+                  isFormValid = false;
+               }
+            });
+
+            if (isFormValid) {
+               alert("Form submitted successfully!");
+               form.submit(); // Or handle with AJAX
+            }
+         });
+
+         function validateField(field) {
+            const value = field.value.trim();
+            const errorDiv = document.getElementById(field.id + "Error");
+            let error = "";
+
+            if (!value) {
+               error = "This field is required.";
+            } else if (field.type === "email") {
+               const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+               if (!emailRegex.test(value)) {
+                  error = "Please enter a valid email.";
+               }
+            } else if (field.name === "mobile") {
+               // Accepts optional +country code, spaces, or no spaces
+               const phoneRegex = /^(\+?\d{1,4}[\s-]?)?(\d{2,3}[\s-]?\d{3}[\s-]?\d{4})$/;
+               if (!phoneRegex.test(value)) {
+                  error = "Enter a valid phone number";
+               }
+            }
+
+            if (error) {
+               field.classList.add("is-invalid");
+               errorDiv.textContent = error;
+               return false;
+            } else {
+               field.classList.remove("is-invalid");
+               errorDiv.textContent = "";
+               return true;
+            }
+         }
       });
    </script>
 </body>
