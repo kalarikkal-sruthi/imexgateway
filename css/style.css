@@ -1666,3 +1666,8 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 }
+
+.import-export-service-contents h2{
+  font-size: 60px;
+    font-weight: bold;
+}
