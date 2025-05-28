@@ -838,9 +838,9 @@ text-decoration: none;
 
 .owl-carousel .owl-item img {
     display: block;
-    width: 90%;
+    width: 100%;
     border: 1px solid black;
-    padding: 60px 60px;
+    /* padding: 60px 0px; */
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
@@ -1477,6 +1477,10 @@ font-size: 14px;
 .building-popular-brand{
   /* border: 1px solid black; */
   /* padding: 20px 10px; */
+}
+
+.building-popular-brand img{
+  width: 80% !important;
 }
 .building-popular-brand h1{
  font-size: 16px;
