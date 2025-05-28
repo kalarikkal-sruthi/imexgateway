@@ -1679,3 +1679,28 @@ flex-direction: column;
   font-size: 60px;
     font-weight: bold;
 }
+
+
+.electric-main-div{
+         display: flex
+;
+    align-items: anchor-center;
+    /* gap: 10px; */
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.electric-main-div img{
+    width: 30%;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.electric-main-div h1{
+    font-size: 15px;
+    height: 50px;
+    margin-bottom: 0px;
+    padding: 10px 10px;
+    color: #000;
+}
