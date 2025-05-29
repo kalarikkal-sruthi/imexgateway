@@ -198,8 +198,196 @@
 }
 
 /* iPhone 6/7/8 Plus - 414px */
-@media (min-width: 414px) {
- 
+@media (max-width: 414px) {
+     .top-header{
+        /* padding: px; */
+    }
+ .social-media-icons{
+    justify-content: end;
+    padding: 0px 14px;
+ }
+
+ .top-contents{
+    width: 100%;
+ }
+ .main-logo img{
+    width: 60px;
+ }
+ .main-logo{
+    height: auto;
+ }
+
+ .mail-link{
+    padding: 0px 14px ;
+    justify-content: end;
+ }
+ .social-media-links ul li{
+    width: 20px;
+    height: 20px;
+ }
+.social-media-links ul li a i{
+    font-size: 12px;
+}
+ .bottom-header{
+    width: 90%;
+ }
+ .top-header{
+    padding: 0px 0px 16px 0px;
+ }
+
+ .bottom-header .sticky{
+    width: 100%;
+ }
+
+
+.banner-content h1{
+    font-size: 34px;
+}
+.banner-content h2{
+    font-size: 20px;
+}
+
+.home-banner-carousel .owl-prev{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.home-banner-carousel .owl-next{
+    width: 30px;
+    height: 30px;
+}
+
+.home-banner-carousel .owl-prev i{
+ font-size: 14px;
+}
+
+
+
+.home-banner-carousel .owl-next i{
+   font-size: 14px;
+}
+
+
+.banner-content p{font-size: 12px;}
+
+.button-50{
+    font-size: 12px;
+}
+.service-image img{
+
+    padding-right: 0px;
+    margin: 30px 0px 30px 0px;
+}
+
+.service-contents{
+    padding-right: 0px;
+}
+
+.service-contents h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.service-contents p{
+    font-size: 12px;
+}
+.padding-div{
+    padding-top: 30px;
+}
+
+.service-icon{
+    width: 100%;
+}
+.service-head{
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.service-head h1{
+    font-size: 18px;
+}
+.service-head p{
+    font-size: 12px;
+}
+.feature-content-image img:nth-child(1){
+    width: 200px;
+    height: 250px;
+}
+.feature-content-image img:nth-child(2){
+    left: 80px;
+    width: 200px;
+    height: 250px;
+}
+.feature-content-image{
+   min-height: 420px;
+}
+
+.content{
+    top: 20%;
+    max-width: 100%;
+    padding: 0px;
+    left: 10%;
+    right: 10%;
+    transform: translate(0%, 0%)
+}
+.content h2{
+    font-size: 34px;
+}
+.content p{
+    font-size: 12px;
+}
+.vision{
+    padding-right: 0px;
+}
+.vision-main{
+    padding-right: 10px;
+}
+.v-head{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.vision-head {
+    margin-bottom: 10px;
+}
+.vision-head img{
+    width: 60px;
+}
+
+.vision-para P{
+    font-size: 12px;
+}
+
+.why-choose-heading h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.why-choose-box{
+    padding: 10px;
+    height: 220px;
+}
+.why-choose-box i{
+    font-size: 24px;
+}
+.why-choose-box h1{
+    font-size: 16px;
+}
+.why-choose-box p{
+    font-size: 12px;
+}
+.overlay-form{
+    padding: 30px 0px;
+}
+.let-chat-with-conversation-head h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.conversation-form input, .conversation-form textarea{
+    font-size: 12px;
+}
+.brand-section h1{
+    font-size: 30px;margin-bottom: 10px;
+}
 }
 
 /* iPhone 12 Pro Max and larger - 428px */
