@@ -648,7 +648,9 @@ height: 500px;
 
 
 
-
+.img img{
+  width: 100%;
+}
 .conversation-section {
   background-image: url('../images/network/2-1.png'); /* Replace with your image path */
   background-size: cover;
@@ -806,6 +808,7 @@ font-size: 16px;
 }
 .footer-support-link ul li{
 list-style-type: none;
+
 }
 .footer-support-link ul li a{
 text-decoration: none;
@@ -828,7 +831,7 @@ font-size: 14px;
 .footer-address-div  ul  li{
 list-style-type: none;
  font-size: 14px;
-
+margin-bottom: 6px;
  color: white;
 }
 .footer-address-div  ul  li a{
@@ -1168,7 +1171,11 @@ position: absolute;
 .about-services{
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
   margin-top: 20px;
+}
+.about-service{
+  width: 20%;
 }
 .about-service img{
   width: 50%;
@@ -1723,9 +1730,12 @@ flex-direction: column;
 }
 
 .electric-main-div h1{
-    font-size: 15px;
+       font-size: 15px;
     height: 50px;
     margin-bottom: 0px;
     padding: 10px 10px;
     color: #000;
+    display: flex
+;
+    align-items: center;
 }
