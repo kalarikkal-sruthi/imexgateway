@@ -623,6 +623,10 @@ height: 500px;
       padding-right: 30px;
 }
 
+.vision-main{
+  padding-right: 30px;
+}
+
 .vision-head {
   margin-bottom: 20px;
 }
@@ -852,7 +856,7 @@ text-decoration: none;
 
 .owl-carousel .owl-item img {
     display: block;
-    width: 100%;
+    width: 80%;
     border: 1px solid black;
     /* padding: 60px 0px; */
 }

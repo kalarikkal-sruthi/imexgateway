@@ -10,8 +10,8 @@
         /* padding: px; */
     }
  .social-media-icons{
-    justify-content: start;
-    padding: 0px 10px;
+    justify-content: end;
+    padding: 0px 14px;
  }
 
  .top-contents{
@@ -25,13 +25,16 @@
  }
 
  .mail-link{
-    padding: 0px 20px ;
+    padding: 0px 14px ;
+    justify-content: end;
  }
  .social-media-links ul li{
     width: 20px;
     height: 20px;
  }
-
+.social-media-links ul li a i{
+    font-size: 12px;
+}
  .bottom-header{
     width: 90%;
  }
@@ -125,6 +128,72 @@
 }
 .feature-content-image{
    min-height: 420px;
+}
+
+.content{
+    top: 20%;
+    max-width: 100%;
+    padding: 0px;
+    left: 10%;
+    right: 10%;
+    transform: translate(0%, 0%)
+}
+.content h2{
+    font-size: 34px;
+}
+.content p{
+    font-size: 12px;
+}
+.vision{
+    padding-right: 0px;
+}
+.vision-main{
+    padding-right: 10px;
+}
+.v-head{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.vision-head {
+    margin-bottom: 10px;
+}
+.vision-head img{
+    width: 60px;
+}
+
+.vision-para P{
+    font-size: 12px;
+}
+
+.why-choose-heading h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.why-choose-box{
+    padding: 10px;
+    height: 220px;
+}
+.why-choose-box i{
+    font-size: 24px;
+}
+.why-choose-box h1{
+    font-size: 16px;
+}
+.why-choose-box p{
+    font-size: 12px;
+}
+.overlay-form{
+    padding: 30px 0px;
+}
+.let-chat-with-conversation-head h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.conversation-form input, .conversation-form textarea{
+    font-size: 12px;
+}
+.brand-section h1{
+    font-size: 30px;margin-bottom: 10px;
 }
 }
 
