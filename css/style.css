@@ -43,7 +43,16 @@ body {
     margin: auto;
 }
   
+.social-media-icons{
+  padding: 0px ;
+                     display: flex ;
+                     align-items: center;
+                     justify-content: end ;
+}
 
+.mail-link{
+  padding: 0px;display: flex;align-items: center;
+}
   .sticky {
     position: fixed;
     top: 0%;
@@ -377,6 +386,10 @@ font-size: 14px;  color: #000;
  }
 
  .feature-content-image img:nth-child(1) {
+  width: 338px;
+    height: 367px;
+    object-fit: cover;
+
   position: absolute;
   z-index: 9;
   top: 0;
@@ -390,6 +403,7 @@ font-size: 14px;  color: #000;
 
 
 .feature-content-image img:nth-child(2) {
+  width: 301px;height: 372px;object-fit: cover;
   position: absolute;
   z-index: 0;
   top: 180px;
