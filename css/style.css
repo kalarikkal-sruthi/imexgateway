@@ -1726,9 +1726,11 @@ font-size: 14px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .electric-main-div img{
+     height: 88.8px;
     width: 30%;
     margin: 8px;
     border-radius: 5px;
+    object-fit: contain;
 }
 
 .electric-main-div h1{
