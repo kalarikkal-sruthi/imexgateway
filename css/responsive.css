@@ -406,6 +406,89 @@ height: 72px;}
     width: 25%;
     font-size: 12px;
 }
+
+.import-export-main p{font-size: 16px;}
+.importexport-img img{
+    height: auto;
+}
+.import-export-img img{
+    height: auto;
+}
+.import-export-img img{
+    margin-bottom: 5px;
+}
+.import-export-img h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.import-export-service-img img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.import-export-service-contents h2{
+    font-size: 40px;
+}
+.import-export-service-contents h1{
+    font-size: 30px;
+}
+.import-export-service-contents p{
+font-size: 12px;
+}
+.why-choose-project-para p{
+font-size: 16px;
+}
+
+.careers-join{
+    padding-right: 0px;
+}
+.careers-join-para h1{
+    font-size: 30px;
+}
+.careers-join-para p{
+    font-size: 12px;
+}
+.careers-icons{
+    justify-content: space-around;
+    gap: 0;
+}
+.careers-img i{
+    font-size: 18px;
+}
+
+.more-info{
+    margin-top: 0px;
+    padding: 40px 0px;
+}
+.more-info h1{
+    font-size: 34px;
+}
+.more-info p{
+    font-size: 12px;
+}
+
+.contact-map-img{
+    margin-bottom: 30px;
+}
+.conatct-information h5{
+    font-size: 18px;
+}
+.footer-address-main address{
+    font-size: 12px;
+}
+.footer-address-main .number-info a{
+    font-size: 12px;
+}
+.footer-address-main ul li a{
+     font-size: 12px;
+}.footer-address-main i{
+    font-size: 16px;
+}
+.conversation-form-contact input, .conversation-form-contact textarea{
+    font-size: 12px !important;
+    padding: 8px !important;
+}
 }
 
 /* iPhone 6/7/8 + SE (2nd gen) - 375px */
