@@ -302,200 +302,1318 @@
     /* about us */
 
 
-    .about-head-inner h1{
+    .about-head-inner h1 {
         font-size: 34px;
         top: 32%;
         left: 5%;
     }
 
-    .about-banner img{
+    .about-banner img {
         height: 200px;
     }
-    .about-para h1{
+
+    .about-para h1 {
         font-size: 30px;
         margin-bottom: 10px;
     }
-    .about-para p{
+
+    .about-para p {
         font-size: 12px;
     }
-    .about-services{
 
-         gap: 20px;
-       
-        
+    .about-services {
+
+        gap: 20px;
+
+
     }
 
-      .about-service{
-         width: 18%;
-       
+    .about-service {
+        width: 18%;
+
     }
-    .about-service img{
+
+    .about-service img {
         width: 80%;
     }
-    .about-service h6{
+
+    .about-service h6 {
         font-size: 10px;
     }
-    .our-story{
+
+    .our-story {
         padding: 30px 0px;
     }
-    .our-story-info h1{
-         font-size: 34px;
+
+    .our-story-info h1 {
+        font-size: 34px;
     }
-    .our-story-info p{
+
+    .our-story-info p {
         font-size: 12px;
     }
 
     /* our division */
 
-    .buildng-construction-material h1{
+    .buildng-construction-material h1 {
         font-size: 30px;
         margin-bottom: 20px;
     }
 
 
-    .material-flex-main{
+    .material-flex-main {
         gap: 2%;
         justify-content: space-around;
     }
-    .materials-main{
+
+    .materials-main {
         width: 48%;
     }
 
-    .material-flex-main{
+    .material-flex-main {
         flex-wrap: wrap;
     }
 
-    .material img{
+    .material img {
         height: 100px;
     }
-    .material-content{
+
+    .material-content {
         padding: 4px;
         height: 60px;
     }
-    .material-content ul
-    {
+
+    .material-content ul {
         flex-wrap: wrap;
         justify-content: start;
         gap: 4px;
 
     }
-    .materials-main h1{
+
+    .materials-main h1 {
         font-size: 12px;
     }
-    .material-content ul li{
+
+    .material-content ul li {
         font-size: 10px;
     }
-    .buildng-construction-material h1{
 
-    }
-    .building-popular-brand img{
+    .buildng-construction-material h1 {}
+
+    .building-popular-brand img {
         width: 100%;
     }
 
-    .electric-main-div{margin-bottom: 20px;}
-.electric-main-div h1{font-size: 10px;
-padding: 4px;
-height: 72px;}
-.electric-main-div img{
-    margin: 4px;
-}
-.mep-popular-products ul{
-    gap: 10px;
-}
-.mep-popular-products ul li{
-    width: 25%;
-    font-size: 12px;
-}
+    .electric-main-div {
+        margin-bottom: 20px;
+    }
 
-.import-export-main p{font-size: 16px;}
-.importexport-img img{
-    height: auto;
-}
-.import-export-img img{
-    height: auto;
-}
-.import-export-img img{
-    margin-bottom: 5px;
-}
-.import-export-img h1{
-    margin-bottom: 20px;
-    font-size: 20px;
-    text-align: center;
-}
-.import-export-service-img img{
-    width: 100%;
-    height: 250px;
-    margin-bottom: 30px;
-}
-.import-export-service-contents h2{
-    font-size: 40px;
-}
-.import-export-service-contents h1{
-    font-size: 30px;
-}
-.import-export-service-contents p{
-font-size: 12px;
-}
-.why-choose-project-para p{
-font-size: 16px;
-}
+    .electric-main-div h1 {
+        font-size: 10px;
+        padding: 4px;
+        height: 72px;
+    }
 
-.careers-join{
-    padding-right: 0px;
-}
-.careers-join-para h1{
-    font-size: 30px;
-}
-.careers-join-para p{
-    font-size: 12px;
-}
-.careers-icons{
-    justify-content: space-around;
-    gap: 0;
-}
-.careers-img i{
-    font-size: 18px;
-}
+    .electric-main-div img {
+        margin: 4px;
+    }
 
-.more-info{
-    margin-top: 0px;
-    padding: 40px 0px;
-}
-.more-info h1{
-    font-size: 34px;
-}
-.more-info p{
-    font-size: 12px;
-}
+    .mep-popular-products ul {
+        gap: 10px;
+    }
 
-.contact-map-img{
-    margin-bottom: 30px;
-}
-.conatct-information h5{
-    font-size: 18px;
-}
-.footer-address-main address{
-    font-size: 12px;
-}
-.footer-address-main .number-info a{
-    font-size: 12px;
-}
-.footer-address-main ul li a{
-     font-size: 12px;
-}.footer-address-main i{
-    font-size: 16px;
-}
-.conversation-form-contact input, .conversation-form-contact textarea{
-    font-size: 12px !important;
-    padding: 8px !important;
-}
+    .mep-popular-products ul li {
+        width: 25%;
+        font-size: 12px;
+    }
+
+    .import-export-main p {
+        font-size: 16px;
+    }
+
+    .importexport-img img {
+        height: auto;
+    }
+
+    .import-export-img img {
+        height: auto;
+    }
+
+    .import-export-img img {
+        margin-bottom: 5px;
+    }
+
+    .import-export-img h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .import-export-service-img img {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .import-export-service-contents h2 {
+        font-size: 40px;
+    }
+
+    .import-export-service-contents h1 {
+        font-size: 30px;
+    }
+
+    .import-export-service-contents p {
+        font-size: 12px;
+    }
+
+    .why-choose-project-para p {
+        font-size: 16px;
+    }
+
+    .careers-join {
+        padding-right: 0px;
+    }
+
+    .careers-join-para h1 {
+        font-size: 30px;
+    }
+
+    .careers-join-para p {
+        font-size: 12px;
+    }
+
+    .careers-icons {
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .careers-img i {
+        font-size: 18px;
+    }
+
+    .more-info {
+        margin-top: 0px;
+        padding: 40px 0px;
+    }
+
+    .more-info h1 {
+        font-size: 34px;
+    }
+
+    .more-info p {
+        font-size: 12px;
+    }
+
+    .contact-map-img {
+        margin-bottom: 30px;
+    }
+
+    .conatct-information h5 {
+        font-size: 18px;
+    }
+
+    .footer-address-main address {
+        font-size: 12px;
+    }
+
+    .footer-address-main .number-info a {
+        font-size: 12px;
+    }
+
+    .footer-address-main ul li a {
+        font-size: 12px;
+    }
+
+    .footer-address-main i {
+        font-size: 16px;
+    }
+
+    .conversation-form-contact input,
+    .conversation-form-contact textarea {
+        font-size: 12px !important;
+        padding: 8px !important;
+    }
 }
 
 /* iPhone 6/7/8 + SE (2nd gen) - 375px */
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+
+        .top-header {}
+
+    .social-media-icons {
+        justify-content: end;
+        padding: 0px 14px;
+    }
+
+    .top-contents {
+        width: 100%;
+    }
+
+    .main-logo img {
+        width: 80px;
+        padding: 4px 0px;
+    }
+
+    .main-logo {
+        height: auto;
+    }
+
+    .mail-link {
+        padding: 0px 14px;
+        justify-content: end;
+    }
+
+    .social-media-links ul li {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-media-links ul li a i {
+        font-size: 12px;
+    }
+
+    .bottom-header {
+        width: 90%;
+        top: 50px;
+    }
+
+    .bottom-header.sticky {
+        width: 100%;
+        top: 0px;
+    }
+
+    .top-header {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .bottom-header .sticky {
+        width: 100%;
+    }
+
+
+    .banner-content h1 {
+        font-size: 34px;
+    }
+
+    .banner-content h2 {
+        font-size: 20px;
+    }
+
+    .home-banner-carousel .owl-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    .home-banner-carousel .owl-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .home-banner-carousel .owl-prev i {
+        font-size: 14px;
+    }
+
+
+
+    .home-banner-carousel .owl-next i {
+        font-size: 14px;
+    }
+
+
+    .banner-content p {
+        font-size: 12px;
+    }
+
+    .button-50 {
+        font-size: 12px;
+    }
+
+    .service-image img {
+
+        padding-right: 0px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .service-contents {
+        padding-right: 0px;
+    }
+
+    .service-contents h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .service-contents p {
+        font-size: 12px;
+    }
+
+    .padding-div {
+        padding-top: 30px;
+    }
+
+    .service-icon {
+        width: 100%;
+    }
+
+    .service-head {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .service-head h1 {
+        font-size: 18px;
+    }
+
+    .service-head p {
+        font-size: 12px;
+    }
+
+    .feature-content-image img:nth-child(1) {
+        width: 200px;
+        height: 250px;
+    }
+
+    .feature-content-image img:nth-child(2) {
+        left: 80px;
+        width: 200px;
+        height: 250px;
+    }
+
+    .feature-content-image {
+        min-height: 420px;
+    }
+
+    .image-overlay-container {
+        height: 350px;
+    }
+
+    .content {
+        top: 20%;
+        max-width: 100%;
+        padding: 0px;
+        left: 10%;
+        right: 10%;
+        transform: translate(0%, 0%)
+    }
+
+    .content h2 {
+        font-size: 34px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .vision {
+        padding-right: 0px;
+    }
+
+    .vision-main {
+        padding-right: 10px;
+    }
+
+    .v-head {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    .vision-head {
+        margin-bottom: 10px;
+    }
+
+    .vision-head img {
+        width: 60px;
+    }
+
+    .vision-para P {
+        font-size: 12px;
+    }
+
+    .why-choose-heading h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .why-choose-box {
+        padding: 10px;
+        height: 220px;
+    }
+
+    .why-choose-box i {
+        font-size: 24px;
+    }
+
+    .why-choose-box h1 {
+        font-size: 16px;
+    }
+
+    .why-choose-box p {
+        font-size: 12px;
+    }
+
+    .overlay-form {
+        padding: 30px 0px;
+    }
+
+    .let-chat-with-conversation-head h1 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .img img {
+        width: 80%;
+    }
+
+    .conversation-form input,
+    .conversation-form textarea {
+        font-size: 12px;
+    }
+
+    .brand-section h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer-section-with-bg {
+        padding: 30px 0px;
+    }
+
+    .footer-contents-img img {
+        width: 80px;
+    }
+
+    .footer-section-with-bg p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .information-links h5 {
+        font-size: 14px;
+    }
+
+    .footer-support-link ul li a {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+
+    .footer-address-div h5 {
+        font-size: 14px;
+    }
+
+    .footer-address-div address {
+        font-size: 12px;
+    }
+
+    .number-info a {
+        font-size: 12px;
+    }
+
+    .footer-address-div ul li {
+        font-size: 12px;
+    }
+
+    .footer-last-contents {
+        padding: 15px 0px;
+    }
+
+    .footer-last-contents p {
+        font-size: 10px;
+    }
+
+    .btn-whatsapp-pulse {
+        padding: 20px;
+    }
+
+    .btn-whatsapp-pulse i {
+        font-size: 20px;
+    }
+
+    #scrollToTopBtn {
+        right: 20px;
+    }
+
+
+
+    /* about us */
+
+
+    .about-head-inner h1 {
+        font-size: 34px;
+        top: 32%;
+        left: 5%;
+    }
+
+    .about-banner img {
+        height: 200px;
+    }
+
+    .about-para h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .about-para p {
+        font-size: 12px;
+    }
+
+    .about-services {
+
+        gap: 20px;
+
+
+    }
+
+    .about-service {
+        width: 18%;
+
+    }
+
+    .about-service img {
+        width: 80%;
+    }
+
+    .about-service h6 {
+        font-size: 10px;
+    }
+
+    .our-story {
+        padding: 30px 0px;
+    }
+
+    .our-story-info h1 {
+        font-size: 34px;
+    }
+
+    .our-story-info p {
+        font-size: 12px;
+    }
+
+    /* our division */
+
+    .buildng-construction-material h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .material-flex-main {
+        gap: 2%;
+        justify-content: space-around;
+    }
+
+    .materials-main {
+        width: 48%;
+    }
+
+    .material-flex-main {
+        flex-wrap: wrap;
+    }
+
+    .material img {
+        height: 100px;
+    }
+
+    .material-content {
+        padding: 4px;
+        height: 60px;
+    }
+
+    .material-content ul {
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 4px;
+
+    }
+
+    .materials-main h1 {
+        font-size: 12px;
+    }
+
+    .material-content ul li {
+        font-size: 10px;
+    }
+
+    .buildng-construction-material h1 {}
+
+    .building-popular-brand img {
+        width: 100%;
+    }
+
+    .electric-main-div {
+        margin-bottom: 20px;
+    }
+
+    .electric-main-div h1 {
+        font-size: 10px;
+        padding: 4px;
+        height: 72px;
+    }
+
+    .electric-main-div img {
+        margin: 4px;
+    }
+
+    .mep-popular-products ul {
+        gap: 10px;
+    }
+
+    .mep-popular-products ul li {
+        width: 25%;
+        font-size: 12px;
+    }
+
+    .import-export-main p {
+        font-size: 16px;
+    }
+
+    .importexport-img img {
+        height: auto;
+    }
+
+    .import-export-img img {
+        height: auto;
+    }
+
+    .import-export-img img {
+        margin-bottom: 5px;
+    }
+
+    .import-export-img h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .import-export-service-img img {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .import-export-service-contents h2 {
+        font-size: 40px;
+    }
+
+    .import-export-service-contents h1 {
+        font-size: 30px;
+    }
+
+    .import-export-service-contents p {
+        font-size: 12px;
+    }
+
+    .why-choose-project-para p {
+        font-size: 16px;
+    }
+
+    .careers-join {
+        padding-right: 0px;
+    }
+
+    .careers-join-para h1 {
+        font-size: 30px;
+    }
+
+    .careers-join-para p {
+        font-size: 12px;
+    }
+
+    .careers-icons {
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .careers-img i {
+        font-size: 18px;
+    }
+
+    .more-info {
+        margin-top: 0px;
+        padding: 40px 0px;
+    }
+
+    .more-info h1 {
+        font-size: 34px;
+    }
+
+    .more-info p {
+        font-size: 12px;
+    }
+
+    .contact-map-img {
+        margin-bottom: 30px;
+    }
+
+    .conatct-information h5 {
+        font-size: 18px;
+    }
+
+    .footer-address-main address {
+        font-size: 12px;
+    }
+
+    .footer-address-main .number-info a {
+        font-size: 12px;
+    }
+
+    .footer-address-main ul li a {
+        font-size: 12px;
+    }
+
+    .footer-address-main i {
+        font-size: 16px;
+    }
+
+    .conversation-form-contact input,
+    .conversation-form-contact textarea {
+        font-size: 12px !important;
+        padding: 8px !important;
+    }
+}
 
 /* iPhone 6/7/8 Plus - 414px */
-@media (max-width: 414px) {}
+@media (max-width: 414px) {
+
+
+        .top-header {}
+
+    .social-media-icons {
+        justify-content: end;
+        padding: 0px 14px;
+    }
+
+    .top-contents {
+        width: 100%;
+    }
+
+    .main-logo img {
+        width: 80px;
+        padding: 4px 0px;
+    }
+
+    .main-logo {
+        height: auto;
+    }
+
+    .mail-link {
+        padding: 0px 14px;
+        justify-content: end;
+    }
+
+    .social-media-links ul li {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-media-links ul li a i {
+        font-size: 12px;
+    }
+
+    .bottom-header {
+        width: 90%;
+        top: 50px;
+    }
+
+    .bottom-header.sticky {
+        width: 100%;
+        top: 0px;
+    }
+
+    .top-header {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .bottom-header .sticky {
+        width: 100%;
+    }
+
+
+    .banner-content h1 {
+        font-size: 34px;
+    }
+
+    .banner-content h2 {
+        font-size: 20px;
+    }
+
+    .home-banner-carousel .owl-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    .home-banner-carousel .owl-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .home-banner-carousel .owl-prev i {
+        font-size: 14px;
+    }
+
+
+
+    .home-banner-carousel .owl-next i {
+        font-size: 14px;
+    }
+
+
+    .banner-content p {
+        font-size: 12px;
+    }
+
+    .button-50 {
+        font-size: 12px;
+    }
+
+    .service-image img {
+
+        padding-right: 0px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .service-contents {
+        padding-right: 0px;
+    }
+
+    .service-contents h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .service-contents p {
+        font-size: 12px;
+    }
+
+    .padding-div {
+        padding-top: 30px;
+    }
+
+    .service-icon {
+        width: 100%;
+    }
+
+    .service-head {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .service-head h1 {
+        font-size: 18px;
+    }
+
+    .service-head p {
+        font-size: 12px;
+    }
+
+    .feature-content-image img:nth-child(1) {
+        width: 200px;
+        height: 250px;
+    }
+
+    .feature-content-image img:nth-child(2) {
+        left: 80px;
+        width: 200px;
+        height: 250px;
+    }
+
+    .feature-content-image {
+        min-height: 420px;
+    }
+
+    .image-overlay-container {
+        height: 350px;
+    }
+
+    .content {
+        top: 20%;
+        max-width: 100%;
+        padding: 0px;
+        left: 10%;
+        right: 10%;
+        transform: translate(0%, 0%)
+    }
+
+    .content h2 {
+        font-size: 34px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .vision {
+        padding-right: 0px;
+    }
+
+    .vision-main {
+        padding-right: 10px;
+    }
+
+    .v-head {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    .vision-head {
+        margin-bottom: 10px;
+    }
+
+    .vision-head img {
+        width: 60px;
+    }
+
+    .vision-para P {
+        font-size: 12px;
+    }
+
+    .why-choose-heading h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .why-choose-box {
+        padding: 10px;
+        height: 220px;
+    }
+
+    .why-choose-box i {
+        font-size: 24px;
+    }
+
+    .why-choose-box h1 {
+        font-size: 16px;
+    }
+
+    .why-choose-box p {
+        font-size: 12px;
+    }
+
+    .overlay-form {
+        padding: 30px 0px;
+    }
+
+    .let-chat-with-conversation-head h1 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .img img {
+        width: 80%;
+    }
+
+    .conversation-form input,
+    .conversation-form textarea {
+        font-size: 12px;
+    }
+
+    .brand-section h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer-section-with-bg {
+        padding: 30px 0px;
+    }
+
+    .footer-contents-img img {
+        width: 80px;
+    }
+
+    .footer-section-with-bg p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .information-links h5 {
+        font-size: 14px;
+    }
+
+    .footer-support-link ul li a {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+
+    .footer-address-div h5 {
+        font-size: 14px;
+    }
+
+    .footer-address-div address {
+        font-size: 12px;
+    }
+
+    .number-info a {
+        font-size: 12px;
+    }
+
+    .footer-address-div ul li {
+        font-size: 12px;
+    }
+
+    .footer-last-contents {
+        padding: 15px 0px;
+    }
+
+    .footer-last-contents p {
+        font-size: 10px;
+    }
+
+    .btn-whatsapp-pulse {
+        padding: 20px;
+    }
+
+    .btn-whatsapp-pulse i {
+        font-size: 20px;
+    }
+
+    #scrollToTopBtn {
+        right: 20px;
+    }
+
+
+
+    /* about us */
+
+
+    .about-head-inner h1 {
+        font-size: 34px;
+        top: 32%;
+        left: 5%;
+    }
+
+    .about-banner img {
+        height: 200px;
+    }
+
+    .about-para h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .about-para p {
+        font-size: 12px;
+    }
+
+    .about-services {
+
+        gap: 20px;
+
+
+    }
+
+    .about-service {
+        width: 18%;
+
+    }
+
+    .about-service img {
+        width: 80%;
+    }
+
+    .about-service h6 {
+        font-size: 10px;
+    }
+
+    .our-story {
+        padding: 30px 0px;
+    }
+
+    .our-story-info h1 {
+        font-size: 34px;
+    }
+
+    .our-story-info p {
+        font-size: 12px;
+    }
+
+    /* our division */
+
+    .buildng-construction-material h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .material-flex-main {
+        gap: 2%;
+        justify-content: space-around;
+    }
+
+    .materials-main {
+        width: 48%;
+    }
+
+    .material-flex-main {
+        flex-wrap: wrap;
+    }
+
+    .material img {
+        height: 100px;
+    }
+
+    .material-content {
+        padding: 4px;
+        height: 60px;
+    }
+
+    .material-content ul {
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 4px;
+
+    }
+
+    .materials-main h1 {
+        font-size: 12px;
+    }
+
+    .material-content ul li {
+        font-size: 10px;
+    }
+
+    .buildng-construction-material h1 {}
+
+    .building-popular-brand img {
+        width: 100%;
+    }
+
+    .electric-main-div {
+        margin-bottom: 20px;
+    }
+
+    .electric-main-div h1 {
+        font-size: 10px;
+        padding: 4px;
+        height: 72px;
+    }
+
+    .electric-main-div img {
+        margin: 4px;
+    }
+
+    .mep-popular-products ul {
+        gap: 10px;
+    }
+
+    .mep-popular-products ul li {
+        width: 25%;
+        font-size: 12px;
+    }
+
+    .import-export-main p {
+        font-size: 16px;
+    }
+
+    .importexport-img img {
+        height: auto;
+    }
+
+    .import-export-img img {
+        height: auto;
+    }
+
+    .import-export-img img {
+        margin-bottom: 5px;
+    }
+
+    .import-export-img h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .import-export-service-img img {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .import-export-service-contents h2 {
+        font-size: 40px;
+    }
+
+    .import-export-service-contents h1 {
+        font-size: 30px;
+    }
+
+    .import-export-service-contents p {
+        font-size: 12px;
+    }
+
+    .why-choose-project-para p {
+        font-size: 16px;
+    }
+
+    .careers-join {
+        padding-right: 0px;
+    }
+
+    .careers-join-para h1 {
+        font-size: 30px;
+    }
+
+    .careers-join-para p {
+        font-size: 12px;
+    }
+
+    .careers-icons {
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .careers-img i {
+        font-size: 18px;
+    }
+
+    .more-info {
+        margin-top: 0px;
+        padding: 40px 0px;
+    }
+
+    .more-info h1 {
+        font-size: 34px;
+    }
+
+    .more-info p {
+        font-size: 12px;
+    }
+
+    .contact-map-img {
+        margin-bottom: 30px;
+    }
+
+    .conatct-information h5 {
+        font-size: 18px;
+    }
+
+    .footer-address-main address {
+        font-size: 12px;
+    }
+
+    .footer-address-main .number-info a {
+        font-size: 12px;
+    }
+
+    .footer-address-main ul li a {
+        font-size: 12px;
+    }
+
+    .footer-address-main i {
+        font-size: 16px;
+    }
+
+    .conversation-form-contact input,
+    .conversation-form-contact textarea {
+        font-size: 12px !important;
+        padding: 8px !important;
+    }
+}
 
 /* iPhone 12 Pro Max and larger - 428px */
 @media (min-width: 428px) {}
