@@ -1093,9 +1093,7 @@
 
 /* iPhone 6/7/8 Plus - 414px */
 @media (max-width: 414px) {
-
-
-        .top-header {}
+ .top-header {}
 
     .social-media-icons {
         justify-content: end;
@@ -1628,6 +1626,22 @@
     .conversation-form-contact textarea {
         font-size: 12px !important;
         padding: 8px !important;
+    }
+    .number ul{
+        margin-bottom: 0px;
+    }
+    .owl-carousel .owl-item .home-brands img{
+        padding: 0px;
+    }
+    .popular-brand-carousel .owl-prev{
+        top: 25%;
+        width: 20px;
+        height: 20px;
+    }
+    .popular-brand-carousel .owl-next{
+        top: 25%;
+        width: 20px;
+        height: 20px;
     }
 }
 
