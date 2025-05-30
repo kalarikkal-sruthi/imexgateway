@@ -107,6 +107,35 @@
                            <button class="button-50" > <a href="contact.html">Enquiry Now</a></button>
                         </form>
                      </div>
+                     <div class="hamburger" onclick="toggleTranslateBox()">
+  &#9776; <!-- Hamburger icon -->
+</div>
+
+<div id="translateBox" class="translate-box hidden-box">
+    <div class="close-btn" onclick="toggleTranslateBox()">&times;</div>
+
+
+    <div class="mobile-nav">
+      <ul>
+         <li><a href=""></a></li>
+          <li><a href=""></a></li>
+           <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+            <li><a href=""></a></li>
+             <li><a href=""></a></li>
+              <li><a href=""></a></li>
+      </ul>
+    </div>
+</div>
+
                   </div>
                </nav>
             </div>
@@ -722,7 +751,7 @@ E-mail: <input type="text" name="email"><br>
    <script>
       $('.home-banner-carousel').owlCarousel({
          loop: true,
-         margin: 10,
+         // margin: 10,
          nav: true,
          autoplay: true,        
          autoplayTimeout: 5000,  // Delay between slides (in milliseconds)
@@ -847,7 +876,13 @@ E-mail: <input type="text" name="email"><br>
    </script>
 
 
+<script>
+function toggleTranslateBox() {
+  const box = document.getElementById('translateBox');
+  box.classList.toggle('active');
+}
 
+</script>
 </body>
 
 </html>
