@@ -1653,7 +1653,20 @@
 
 /* Desktop and up */
 @media (min-width: 1024px) {}
+@media (max-width: 992px) {
 
-.mobile-nav{
+    .mobile-nav{
     display: flex;
+}
+}
+
+@media (min-width: 992px) {
+
+.hamburger
+    {
+        display: none;
+    }
+    .mobile-icon{
+        display: none;
+    }
 }
