@@ -14,6 +14,7 @@
     .main-logo img {
         width: 80px;
         padding: 4px 0px;
+        margin-right: 0px;
     }
 
     .main-logo {
@@ -3357,3 +3358,10 @@
         display: none;
     }
 }
+.navbar-toggler{
+    background: #c9b16a;
+    padding: 2px;
+    font-size: 14px;
+    border-radius: 0px;
+}
+/* 767 to 1200 */
