@@ -1671,7 +1671,7 @@
 }
 
 /* Tablet size and up */
-@media (max-width: 768px) {
+@media (max-width: 768px)  {
 .top-header {}
 
     .social-media-icons {
@@ -2227,7 +2227,11 @@
 /* Desktop and up */
 @media (max-width: 992px) {
 
-    .top-header {}
+    
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+.top-header {}
 
     .social-media-icons {
         justify-content: end;
@@ -2249,7 +2253,7 @@
 
     .mail-link {
         padding: 0px 14px;
-        justify-content: end;
+        justify-content: start;
     }
 
     .social-media-links ul li {
@@ -2263,7 +2267,7 @@
 
     .bottom-header {
         width: 90%;
-        top: 50px;
+        top: 35px;
     }
 
     .bottom-header.sticky {
@@ -2272,7 +2276,7 @@
     }
 
     .top-header {
-        padding: 0px 0px 20px 0px;
+        /* padding: 0px 0px 20px 0px; */
     }
 
     .bottom-header .sticky {
@@ -2531,7 +2535,7 @@
 
     .about-head-inner h1 {
         font-size: 34px;
-        top: 32%;
+        top: 50%;
         left: 5%;
     }
 
@@ -2594,7 +2598,7 @@
     }
 
     .materials-main {
-        width: 48%;
+        width: 20%;
     }
 
     .material-flex-main {
@@ -2628,7 +2632,7 @@
     .buildng-construction-material h1 {}
 
     .building-popular-brand img {
-        width: 100%;
+        width: 100% !important;
     }
 
     .electric-main-div {
@@ -2663,7 +2667,7 @@
     }
 
     .import-export-img img {
-        height: auto;
+        height: 250px;
     }
 
     .import-export-img img {
@@ -2778,10 +2782,8 @@
         height: 20px;
     }
 }
-
-@media (max-width: 1200px) {
-
-    .top-header {}
+@media (min-width: 993px) and (max-width:1200px) {
+.top-header {}
 
     .social-media-icons {
         justify-content: end;
@@ -2803,7 +2805,7 @@
 
     .mail-link {
         padding: 0px 14px;
-        justify-content: end;
+        justify-content: start;
     }
 
     .social-media-links ul li {
@@ -2817,7 +2819,7 @@
 
     .bottom-header {
         width: 90%;
-        top: 50px;
+        top: 35px;
     }
 
     .bottom-header.sticky {
@@ -2826,7 +2828,7 @@
     }
 
     .top-header {
-        padding: 0px 0px 20px 0px;
+        /* padding: 0px 0px 20px 0px; */
     }
 
     .bottom-header .sticky {
@@ -3085,7 +3087,7 @@
 
     .about-head-inner h1 {
         font-size: 34px;
-        top: 32%;
+        top: 50%;
         left: 5%;
     }
 
@@ -3148,7 +3150,7 @@
     }
 
     .materials-main {
-        width: 48%;
+        width: 20%;
     }
 
     .material-flex-main {
@@ -3182,7 +3184,7 @@
     .buildng-construction-material h1 {}
 
     .building-popular-brand img {
-        width: 100%;
+        width: 100% !important;
     }
 
     .electric-main-div {
@@ -3217,7 +3219,7 @@
     }
 
     .import-export-img img {
-        height: auto;
+        height: 250px;
     }
 
     .import-export-img img {
